@@ -316,9 +316,5 @@ elexall$stora_pct <- round(elexall$stora/elexall$total*100,1)
 elexall$francis_pct <- round(elexall$francis/elexall$total*100,1)
 elexall$writein_pct <- round(elexall$writein/elexall$total*100,1)
 
-# elexall %>% max(foldenauer, morales, stringer, guire, 
-#                wiley, prince, chang, garcia, adams,
-#                wright, donovan, yang, taylor)
-
 # export csv
 write_csv(elexall,"nyc_mayor_electiondistrict.csv")
